@@ -1,0 +1,105 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 15px solid black;
+}
+
+:root {
+    --light-green: #a1dfa1;
+    --gray: #e0e0e0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header styles */
+header {
+    padding: 20px 35px;
+    background-color: var(--light-green);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header nav {
+    margin: 7px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+}
+
+/* hero styles */
+
+.hero {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* about me styles */
+.profile {
+    margin: 20px;
+    border: 10px solid var(--light-green);
+    background-color: var(--gray);
+    flex: 1;
+}
+
+.profile div {
+}
+
+.flex-row {
+    display: flex;
+}
+
+.bio {
+    display: flex;
+    text-align: center;
+}
+
+/* my projects styles */
+.projects {
+    background-color: var(--gray);
+}
+
+/* contact styles */
+.contact {
+    background-color: var(--gray);
+}
+
+/* footer */
+footer {
+    background-color: var(--light-green);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* Media Query */
+@media screen and (max-width: 980px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 575px) {}
