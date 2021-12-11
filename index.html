@@ -4,17 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/newstyle.css" />
     <title>Coding Portfolio</title>
 </head>
 
 <body>
-    <!-- header/navigation-->
     <header>
-        <h1>
-            <!-- add <a href "/"? -->
-            Daniel's Portfolio Page
-        </h1>
+        <h1>Daniel's Coding Portfolio</h1>
         <nav>
             <ul>
                 <li>
@@ -23,53 +19,67 @@
                 <li>
                     <a href="#my-projects">My Projects</a>
                 </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <!-- hero section -->
     <section class="hero">
-        <h2>Welcome to my Portfolio!</h2>
         <div>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla harum, laudantium eius natus ea dignissimos expedita molestiae delectus, accusantium sunt cumque tempore amet quasi culpa fuga, sint sequi neque sit?
+            <img src="assets/images/dh-photo.jpg" alt="Daniel Hicks's profile image standing inside the lobby of Bow Tie Cinemas in Reston, Virginia">
+            <div class="socials">
+                <h2>Find me on</h2>
+                <a href="https://www.linkedin.com/in/daniel-hicks-3640381a7/" target="blank">
+                    <img src="assets/images/linkedin-icon.png" alt="LinkedIn icon linked to Daniel's LinkedIn profile" />
+                </a>
+                <a href="https://www.instagram.com/daneljefe/" target="blank">
+                    <img src="assets/images/instagram-icon.png" alt="Instagram icon linked to Daniel's Instagram account" />
+                </a>
+                <a href="https://www.facebook.com/hicksda" target="blank">
+                    <img src="assets/images/facebook-icon.png" alt="Facebook icon linked to Daniel's Facebook profile" />
+                </a>
+            </div>
         </div>
-        <div>
-            Feel free to look around!
+        <div class="bio">
+            <h3>Daniel A. Hicks</h3>
+            <ul>
+                <li>Manager at Bow Tie Cinemas in Richmond, Virginia</li>
+                <li>Worked for ten years in the Motion Picture Exhibition industry</li>
+                <li>Future Full Stack Developer</li>
+            </ul>
         </div>
     </section>
 
-    <!-- "about me" -->
-    <section id="about-me" class="profile">
-        <div class="flex-row">
-            <h2>About Me</h2>
-        </div>
-        <article class="bio">
-            <img src="assets/images/dh-photo.jpg" alt="Daniel Hicks during his tenure working at Bow Tie Cinemas in Reston, Virginia" />
-            <p>My name is Daniel Hicks. I'm from Central Virginia. I have worked for ten years in the Motion Picture Exhibition Industry.
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum asperiores numquam consequatur molestiae ea excepturi itaque laudantium nobis. Sequi officiis voluptas voluptatibus dignissimos voluptate cumque numquam omnis, natus alias ex.
-            </p>
-        </article>
-    </section>
+    <!-- <section id="about-me"></section> -->
 
-    <!-- "my projects" -->
     <section id="my-projects" class="projects">
         <h2>My Projects</h2>
-        <div>
-            <h3>1. Run Buddy</h3>
-            <a href="https://hicksda43.github.io/run-buddy/">
-                <img src="assets/images/run-buddy-ss.jpeg" alt="Run Buddy landing page" >
+        <div class="run-buddy">            
+            <h3>Run Buddy</h3>
+            <a href="https://hicksda43.github.io/run-buddy/" target="blank">
+                <img src="assets/images/run-buddy.jpg" alt="Run Buddy landing page" />
             </a>
-            <p>Run Buddy is my very first project on my path to learning web design. This is where I learned the basics to HTML and CSS styling.</p>
+            <p>
+                Run Buddy is the first project on my path to becoming a Full Stack Developer. For this project, I set out to create a landing page for Run Buddy, a company with the goal of helping people along their fitness journey by setting one up with a personal trainer.
+            </p>
+        </div>
+        <div class="code-refactor">
+            <h3>Code Refactor</h3>
+            <a href="https://github.com/hicksda43/code-refactor" target="blank">
+                <img src="assets/images/horiseon.jpg" alt="Horiseon search engine optimization landing page" />
+            </a>
+            <p>
+                The Code Refactor project was the first graded assignment. A source code was provided, and the assignment's goal was Search Engine Optimization. To reach the goal, the code provided had to be edited to contain proper semantics, descriptive attributes, and working links.
+            </p>
         </div>
     </section>
 
-    <!-- contact section -->
-    <section class="contact"></section>
+    <section id="contact-me"></section>
 
-    <!-- footer -->
-    <footer>
-        <h2>Brought to you by Yours Truly, DH 🙃</h2>
-    </footer>
+    <footer></footer>
+
 </body>
+
 </html>

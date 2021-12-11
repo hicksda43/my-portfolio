@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 5px solid black; */
+}
+
+:root {
+    --red: #c54747;
+    --light-red: #e9b5b4;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header {
+    padding: 20px 35px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin: 7px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+    font-weight: lighter;
+}
+
+header nav ul li a:hover {
+    color: red;
+}
+
+.hero {
+    background: linear-gradient(transparent, #c54747);
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+}
+
+.hero ul {
+    list-style: none;
+}
+
+.hero img{
+    border-radius: 50%;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials h2 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects {
+    background: var(--light-red);
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.projects h3 {
+    font-size: 20px;
+    padding: 20px;
+    width: 62px;
+}
+
+.run-buddy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.run-buddy img {
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.code-refactor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.code-refactor img{
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+}
+
+/* Media Query */
+@media screen and (max-width: 980px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 575px) {}
