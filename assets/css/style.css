@@ -6,16 +6,17 @@
 
 :root {
     --red: #c54747;
-    --light-red: #e9b5b4;
+    --light-red: #ab8787;
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #a0a0a0;
 }
 
 header {
     padding: 20px 35px;
-    background: #fff;
+    background: #a0a0a0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -91,10 +92,18 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
+.history {
+    padding: 10px 15px;
+    background-color: var(--light-red);
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
 .projects {
     background: var(--light-red);
     padding: 10px 15px;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 .projects h2 {
@@ -131,6 +140,10 @@ header nav ul li a:hover {
     width: 200px;
     height: auto;
     margin: 0 10px;
+}
+
+.contact {
+    padding: 10px 15px;
 }
 
 /* Media Query */
